@@ -41,7 +41,7 @@ $job=start-job
 receive-job $job
 ```
 
-## **use of arguments in function**
+## **function**
 ### 1._万能参数$args_
 ```powershell
 function sayHello
@@ -56,4 +56,7 @@ function sayHello
     }
 }
 ```
-
+### 2._for循环_
+```powershell
+for($i=0 ; $i -le $names.Length;$i++)
+```
